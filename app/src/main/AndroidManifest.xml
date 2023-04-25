@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="uiu.app.bloodbank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".FeedShow"></activity>
+        <activity android:name=".Feed" />
+        <activity android:name=".Edit" />
+        <activity android:name=".Profile" />
+        <activity android:name=".Ambulance" />
+        <activity android:name=".FeedbackPage" />
+        <activity android:name=".Info" />
+        <activity android:name=".SignUpTwo" />
+        <activity android:name=".Facts" />
+        <activity android:name=".RequestForBlood" />
+        <activity android:name=".Home" />
+        <activity android:name=".SignUpOne" />
+        <activity android:name=".Login" />
+        <activity android:name=".OtpActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".Splash"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

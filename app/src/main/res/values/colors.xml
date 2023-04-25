@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DB0A37</color>
+    <color name="colorPrimaryDark">#6C8686</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="splashbg">#FFFFFF</color>
+    <color name="dark">#000000</color>
+    <color name="shadow">#4F4F52</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="login_back">#E0FFFF</color>
+
+    <color name="lightgrey">#CDD8D8</color>
+    <color name="colorGrapeFruit">#ED5565</color>
+    <color name="colorGrapeFruitDark">#DA4453</color>
+    <color name="colorBitterSweet">#FC6E51</color>
+    <color name="colorBitterSweetDark">#E9573F</color>
+    <color name="colorFlower">#FFCE54</color>
+    <color name="colorFlowerDark">#F68B42</color>
+    <color name="colorGrass">#A0D468</color>
+    <color name="colorGrassDark">#8CC152</color>
+    <color name="colorBlueJean">#509CEC</color>
+    <color name="colorBlueJeanDark">#4A89DC</color>
+    <color name="colorLavander">#AC92EC</color>
+    <color name="colorLavanderDark">#967ADC</color>
+    <color name="colorMint">#48CFAD</color>
+    <color name="colorMintDark">#37BC9B</color>
+    <color name="colorAqua">#4FC1E9</color>
+    <color name="colorAquaDark">#3BAFDA</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorWheat">#ECC16F</color>
+    <color name="colorWheatDark">#E6AE42</color>
+    <color name="colorBegun">#6FEC83</color>
+    <color name="colorBegunDark">#42E65C</color>
+	<color name="new_color">#F13030</color>
+
+</resources>

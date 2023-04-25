@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:scrollbars="none"
+    tools:context=".Profile">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:paddingLeft="10dp"
+		android:background="@color/login_back"
+		android:paddingRight="10dp"
+		android:orientation="vertical"
+		>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/profile_details_background"
+        android:orientation="vertical">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ivPersonImage"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/bgo"
+            app:civ_border_color="@color/dark"
+            app:civ_border_width="2dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:weightSum="5"
+			android:layout_marginBottom="55dp"
+			>
+
+			<LinearLayout
+				android:layout_width="0dp"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:weightSum="2"
+				android:layout_weight="1"
+				>
+
+				<TextView
+					android:id="@+id/tvPersonBloodGroup"
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:textColor="@color/dark"
+					android:text="B-"
+					android:gravity="center"
+					android:textSize="35dp"
+					/>
+				<ImageView
+					android:id="@+id/tvPersonGender"
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:src="@drawable/gendermale"
+					android:layout_weight="1"
+					android:scaleType="center"
+					/>
+
+			</LinearLayout>
+
+
+            <LinearLayout
+				android:layout_weight="4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+				android:paddingLeft="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/name"
+						android:textColor="@color/dark"
+						android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPersonName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="Kagi ferdous magin"
+						android:textColor="@color/dark"
+						android:textStyle="bold"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/email1"
+						android:textColor="@color/dark"
+						android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPersonEmail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="mahin.kkgb.km@gmail.com"
+						android:textColor="@color/dark"
+						android:textStyle="bold"
+                        android:textSize="15sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/phone1"
+						android:textColor="@color/dark"
+						android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPersonPhone"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="+8801719445899"
+						android:textColor="@color/dark"
+						android:textSize="15sp"
+						android:textStyle="bold"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+                    android:weightSum="7">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:text="@string/address"
+						android:textColor="@color/dark"
+						android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvPersonAddress"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="5"
+                        android:text="XXXXXXXXXX"
+						android:textColor="@color/dark"
+						android:textSize="15sp"
+						android:textStyle="bold"/>
+                </LinearLayout>
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="10dp"
+					android:weightSum="7">
+
+					<TextView
+						android:layout_width="0dp"
+						android:layout_height="wrap_content"
+						android:layout_weight="4"
+						android:text="Last donated blood"
+						android:textColor="@color/dark"
+						android:textSize="18sp"
+						android:textStyle="bold" />
+
+					<Spinner
+						android:id="@+id/spinnerMonths"
+						android:layout_width="0dp"
+						android:layout_height="match_parent"
+						android:layout_weight="3"
+						/>
+				</LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+	<LinearLayout
+		android:layout_weight="1"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="-30dp"
+		android:orientation="horizontal"
+		android:paddingLeft="20dp"
+		android:paddingRight="20dp"
+		android:weightSum="3"
+		>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="145dp"
+			android:layout_margin="2dp"
+			android:orientation="vertical"
+			>
+			<LinearLayout
+				android:id="@+id/profileMyFeed"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:weightSum="3"
+				android:layout_marginRight="6dp"
+				android:orientation="vertical"
+				android:background="@drawable/profilebtnone"
+				android:clickable="true"
+				>
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="2"
+					android:src="@drawable/ic_message_black_24dp"
+					android:tint="@color/colorWhite"
+					/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:text="@string/my_feed"
+					android:textAlignment="center"
+					android:textSize="17sp"
+					android:paddingTop="10dp"
+					android:textColor="@color/colorWhite"
+					android:background="@drawable/profilebtnoneone"
+					android:gravity="center_horizontal" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="145dp"
+			android:layout_margin="2dp"
+			android:orientation="vertical"
+			>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:weightSum="3"
+				android:layout_marginRight="3dp"
+				android:layout_marginLeft="3dp"
+				android:background="@drawable/profilebtntwo"
+				android:clickable="true"
+				android:id="@+id/profileEdit"
+				>
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="2"
+					android:src="@drawable/edit_24dp"
+					android:tint="@color/colorWhite"
+					/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:text="@string/edit"
+					android:textAlignment="center"
+					android:textSize="17sp"
+					android:paddingTop="10dp"
+					android:textColor="@color/colorWhite"
+					android:background="@drawable/profilebtntwotwo"
+					android:gravity="center_horizontal" />
+			</LinearLayout>
+		</LinearLayout>
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_weight="1"
+			android:layout_height="145dp"
+			android:layout_margin="2dp"
+			android:orientation="vertical"
+			>
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:orientation="vertical"
+				android:layout_marginLeft="6dp"
+				android:clickable="true"
+				android:id="@+id/profileLogout"
+				android:background="@drawable/profilebtnthree"
+				android:weightSum="3"
+				>
+				<ImageView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="2"
+					android:src="@drawable/ic_close_black_24dp"
+					android:tint="@color/colorWhite"
+					/>
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="0dp"
+					android:layout_weight="1"
+					android:text="@string/logout"
+					android:textAlignment="center"
+					android:textSize="17sp"
+					android:paddingTop="10dp"
+					android:textColor="@color/colorWhite"
+					android:background="@drawable/profilebtnthreethree"
+					android:gravity="center_horizontal" />
+			</LinearLayout>
+		</LinearLayout>
+	</LinearLayout>
+
+	</LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">BloodLink</string>
+
+    <string name="title_activity_splash">splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="hint_user">Phone number</string>
+    <string name="hint_pass">Password</string>
+    <string name="login">LOG IN</string>
+    <string name="signup">Create Account</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="email">Email</string>
+    <string name="phone_number">1521000000</string>
+    <string name="pick_your_date_of_birth">Pick your date of birth</string>
+    <string name="helper_email_text">Enter a valid email</string>
+    <string name="helper_phone_number">Enter a valid phone number</string>
+    <string name="login_helper_phone_number">Enter phone number</string>
+    <string name="password">Enter password</string>
+    <string name="title_activity_test">Test</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="search">Search</string>
+    <string name="feed">Feed</string>
+    <string name="organization">Organization</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="thelasemia">Thelasemia</string>
+    <string name="info">Info</string>
+    <string name="blood_type_donor_vs_receiver">Blood Type( Donor VS Receiver)</string>
+    <string name="blood_type_rh_circulatory_system">Blood Type Rh Circulatory System</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="request_for_blood">Request For Blood</string>
+    <string name="request">Request</string>
+    <string name="place_to_donate_blood">Place to Donate blood</string>
+    <string name="address_of_the_hospital">Address of the Hospital</string>
+    <string name="message_to_donor">Message to Donor</string>
+    <string name="reason_for_asking">Reason for asking</string>
+    <string name="facts">FACTS</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="feedback">Feedback</string>
+    <string name="name">Name:</string>
+    <string name="email1">Email:</string>
+    <string name="enter_your_message">Enter your message</string>
+    <string name="send">Send</string>
+    <string name="expected_blood_required_date">Expected date</string>
+    <string name="profile">Profile</string>
+    <string name="expected_blood_required_time">Expected time</string>
+    <string name="phone1">Phone:</string>
+    <string name="address">Address:</string>
+    <string name="my_feed">My feed</string>
+    <string name="edit">Edit</string>
+    <string name="logout">Logout</string>
+    <string name="choose_photo">Choose Photo</string>
+    <string name="edit_your_name">Edit your name</string>
+    <string name="done">Done</string>
+</resources>

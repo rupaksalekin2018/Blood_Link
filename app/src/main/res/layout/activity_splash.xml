@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/splashbg"
+    tools:context=".Splash">
+
+
+        <ImageView
+            android:id="@+id/splashDrop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/blooddrop">
+        </ImageView>
+
+    <TextView
+        android:id="@+id/splashText"
+        android:layout_width="236dp"
+        android:layout_height="70dp"
+        android:shadowColor="@color/shadow"
+        android:shadowDx="15"
+        android:shadowDy="15"
+        android:gravity="center"
+        android:shadowRadius="10"
+        android:text="@string/app_name"
+        android:textColor="@color/dark"
+        android:textSize="34sp"
+        android:textStyle="bold"></TextView>
+
+
+</LinearLayout>
